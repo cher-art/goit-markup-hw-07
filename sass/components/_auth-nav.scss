@@ -1,0 +1,45 @@
+.auth-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  .item {
+    display: flex;
+    margin-left: auto;
+    + .item {
+      margin-left: 30px;
+    }
+  }
+  .link-svg {
+    margin-right: 10px;
+  }
+  .mail {
+    height: 12px;
+    width: 16px;
+  }
+  .phone {
+    height: 16px;
+    width: 10px;
+  }
+  .link {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    text-decoration: none;
+
+    color: $title-text-color;
+    fill: $title-text-color;
+
+    &:hover {
+      fill: $accent-text-color;
+    }
+  }
+}
