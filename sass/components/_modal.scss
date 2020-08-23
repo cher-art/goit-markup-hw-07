@@ -115,9 +115,8 @@
 .modal-form-input,
 .modal-form-message {
   &:hover,
-  :focus {
-    fill: $accent-text-color;
-    color: $accent-text-color;
+  &:focus {
+    border-color: $accent-text-color;
   }
 }
 
@@ -181,7 +180,6 @@
     border-radius: 4px;
   }
 }
-
 .modal-form-check-policy {
   &:checked + .checkbox-label::before {
     color: $plain-text-color;
