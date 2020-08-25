@@ -600,7 +600,7 @@ section .title {
   margin-right: 30px;
 }
 
-.clients .item :last-child {
+.clients .item:last-child {
   margin: 0;
 }
 

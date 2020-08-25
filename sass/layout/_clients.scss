@@ -50,7 +50,7 @@
   .item {
     width: calc((100% - 30px * 5) / 6);
     margin-right: 30px;
-    :last-child {
+    &:last-child {
       margin: 0;
     }
   }
